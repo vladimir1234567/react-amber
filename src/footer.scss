@@ -1,0 +1,201 @@
+$black: #000000;
+$white: #ffffff;
+$green: #02baab;
+$dark: #3b4954;
+$blue: #914ac2;
+$gray: #c3c3c3;
+$yellow: #ffae00;
+$dark: black;
+
+.main-footer {
+  background: #1f2a32;
+  padding-bottom: 50px;
+}
+.footer-title {
+  margin-bottom: 50px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 35px;
+}
+.footer-section {
+  padding-top: 60px;
+  margin-bottom: 80px;
+  &:first-child {
+    border-top: 17px solid #7827a9;
+  }
+  &:first-child:hover {
+    background: #7827a9;
+    transition: 0.6s;
+  }
+  &:nth-child(2) {
+    border-top: 17px solid #0c8fcc;
+  }
+  &:nth-child(2):hover {
+    background: #0c8fcc;
+    transition: 0.6s;
+  }
+  &:nth-child(3) {
+    border-top: 17px solid #de1c5c;
+  }
+  &:nth-child(3):hover {
+    background: #de1c5c;
+    transition: 0.6s;
+  }
+  &:last-child {
+    border-top: 17px solid #ffae00;
+  }
+  &:last-child:hover {
+    background: #ffae00;
+    transition: 0.6s;
+  }
+  .footer-list {
+    li:first-child::before {
+      position: absolute;
+      content: '';
+      width: 16px;
+      height: 15px;
+      top:4px;
+      left: 0;
+      background: url("./img/flag.png") no-repeat;
+    }
+    li:nth-child(2)::before {
+      position: absolute;
+      content: '';
+      width: 16px;
+      height: 16px;
+      top:4px;
+      left: 0;
+      background: url("./img/min-phone.png") no-repeat;
+    }
+    li:nth-child(3)::before {
+      position: absolute;
+      content: '';
+      width: 12px;
+      height: 9px;
+      top:4px;
+      left: 0;
+      background: url("./img/letter.png") no-repeat;
+    }
+    li:nth-child(3) {
+      margin-bottom: 30px;
+    }
+    .map-item {
+      padding-left: 20px;
+    }
+    .footer-item {
+      margin-bottom: 10px;
+      position: relative;
+      width: 185px;
+      color: #85939f;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 24px;
+    }
+    & span {
+      color: $white;
+    }
+
+  }
+  .map {
+    width: 210px;
+    height: 150px;
+  }
+}
+.footer-section .tweets-list {
+  .tweet-item {
+    position: relative;
+    width: 195px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    color: #85939f;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    .capt {
+      color: $white
+    }
+    .ago {
+      display: block;
+    }
+  }
+  .tweet-item::before {
+    position: absolute;
+    content: '';
+    width: 17px;
+    height: 16px;
+    top: 4px;
+    left: 0;
+    background: url("./img/tw-icon.png") no-repeat;
+  }
+}
+.followings {
+  .follow-item {
+
+    .follow-link {
+      position: relative;
+      padding-left: 70px;
+      //width: 210px;
+      height: 50px;
+      vertical-align: middle;
+      display: block;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 70px;
+      margin-bottom: 25px;
+    }
+  }
+  li .follow-link::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+  }
+  li:first-child .follow-link::before {
+    background: url("./img/fb-icon.png");
+  }
+  li:nth-child(2) .follow-link::before {
+    background: url("./img/tw-b-icon.png");
+  }
+  li:nth-child(3) .follow-link::before {
+    background: url("./img/yt-icon.png");
+  }
+  li:nth-child(4) .follow-link::before {
+    background: url("./img/in-icon.png");
+  }
+  li:last-child .follow-link::before {
+    background: url("./img/p-icon.png");
+  }
+
+}
+.post-list {
+  .post-item {
+    .post-descript {
+      span {
+        display: block;
+      }
+    }
+  }
+}
+body .post-list .post-item:before {
+  content: 'none';
+}
+
+.footer-bottom {
+  width: 100%;
+  .footer-copy {
+    width: 235px;
+    span {
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 24px;
+    }
+    .my-btn {
+      display: inline-block;
+    }
+  }
+}

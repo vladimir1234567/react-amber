@@ -184,3 +184,274 @@ body {
     .main-navbar-nav .main-nav-link:nth-child(7):hover {
       transition: 0.5s;
       background: #0c8fcc; } }
+
+.section-title-dark {
+  position: relative;
+  color: black;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 40px; }
+  .section-title-dark::after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 5px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -25px;
+    background: #eeeeee; }
+
+.section-title-light {
+  position: relative;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 40px; }
+  .section-title-light::after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 5px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -25px;
+    background: #ffffff; }
+
+.section-title {
+  position: relative;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-bottom: 30px; }
+
+.theme-title {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px; }
+
+.item-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px; }
+
+.section-descript-dark {
+  color: #3b4954;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 45px; }
+
+.section-descript-light {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 45px; }
+
+.section-descript {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 45px; }
+
+.item-descript {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px; }
+
+.light {
+  color: #ffffff; }
+
+.dark {
+  color: black; }
+
+.green {
+  color: #02baab; }
+
+.blue {
+  color: #914ac2; }
+
+.bg-green {
+  background-color: #02baab; }
+
+.pad-default {
+  padding: 10vh 0; }
+
+.bg-black {
+  background-color: #000000; }
+
+.round {
+  border-radius: 50%; }
+
+.navbar-toggler-icon {
+  background: black; }
+
+.fa-bars {
+  color: #ffffff;
+  background: #666666; }
+
+.bg-gray {
+  background: #666666; }
+
+.d-color {
+  color: #474d52; }
+
+.y-color {
+  color: #ffae00; }
+
+.main-footer {
+  background: #1f2a32;
+  padding-bottom: 50px; }
+
+.footer-title {
+  margin-bottom: 50px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 35px; }
+
+.footer-section {
+  padding-top: 60px;
+  margin-bottom: 80px; }
+  .footer-section:first-child {
+    border-top: 17px solid #7827a9; }
+  .footer-section:first-child:hover {
+    background: #7827a9;
+    transition: 0.6s; }
+  .footer-section:nth-child(2) {
+    border-top: 17px solid #0c8fcc; }
+  .footer-section:nth-child(2):hover {
+    background: #0c8fcc;
+    transition: 0.6s; }
+  .footer-section:nth-child(3) {
+    border-top: 17px solid #de1c5c; }
+  .footer-section:nth-child(3):hover {
+    background: #de1c5c;
+    transition: 0.6s; }
+  .footer-section:last-child {
+    border-top: 17px solid #ffae00; }
+  .footer-section:last-child:hover {
+    background: #ffae00;
+    transition: 0.6s; }
+  .footer-section .footer-list li:first-child::before {
+    position: absolute;
+    content: '';
+    width: 16px;
+    height: 15px;
+    top: 4px;
+    left: 0;
+    background: url("./img/flag.png") no-repeat; }
+  .footer-section .footer-list li:nth-child(2)::before {
+    position: absolute;
+    content: '';
+    width: 16px;
+    height: 16px;
+    top: 4px;
+    left: 0;
+    background: url("./img/min-phone.png") no-repeat; }
+  .footer-section .footer-list li:nth-child(3)::before {
+    position: absolute;
+    content: '';
+    width: 12px;
+    height: 9px;
+    top: 4px;
+    left: 0;
+    background: url("./img/letter.png") no-repeat; }
+  .footer-section .footer-list li:nth-child(3) {
+    margin-bottom: 30px; }
+  .footer-section .footer-list .map-item {
+    padding-left: 20px; }
+  .footer-section .footer-list .footer-item {
+    margin-bottom: 10px;
+    position: relative;
+    width: 185px;
+    color: #85939f;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px; }
+  .footer-section .footer-list span {
+    color: #ffffff; }
+  .footer-section .map {
+    width: 210px;
+    height: 150px; }
+
+.footer-section .tweets-list .tweet-item {
+  position: relative;
+  width: 195px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  color: #85939f;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px; }
+  .footer-section .tweets-list .tweet-item .capt {
+    color: #ffffff; }
+  .footer-section .tweets-list .tweet-item .ago {
+    display: block; }
+
+.footer-section .tweets-list .tweet-item::before {
+  position: absolute;
+  content: '';
+  width: 17px;
+  height: 16px;
+  top: 4px;
+  left: 0;
+  background: url("./img/tw-icon.png") no-repeat; }
+
+.followings .follow-item .follow-link {
+  position: relative;
+  padding-left: 70px;
+  height: 50px;
+  vertical-align: middle;
+  display: block;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 70px;
+  margin-bottom: 25px; }
+
+.followings li .follow-link::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px; }
+
+.followings li:first-child .follow-link::before {
+  background: url("./img/fb-icon.png"); }
+
+.followings li:nth-child(2) .follow-link::before {
+  background: url("./img/tw-b-icon.png"); }
+
+.followings li:nth-child(3) .follow-link::before {
+  background: url("./img/yt-icon.png"); }
+
+.followings li:nth-child(4) .follow-link::before {
+  background: url("./img/in-icon.png"); }
+
+.followings li:last-child .follow-link::before {
+  background: url("./img/p-icon.png"); }
+
+.post-list .post-item .post-descript span {
+  display: block; }
+
+body .post-list .post-item:before {
+  content: 'none'; }
+
+.footer-bottom {
+  width: 100%; }
+  .footer-bottom .footer-copy {
+    width: 235px; }
+    .footer-bottom .footer-copy span {
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 24px; }
+    .footer-bottom .footer-copy .my-btn {
+      display: inline-block; }

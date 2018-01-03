@@ -1,0 +1,131 @@
+$black: #000000;
+$white: #ffffff;
+$green: #02baab;
+$dark: #3b4954;
+$blue: #914ac2;
+$gray: #c3c3c3;
+$yellow: #ffae00;
+$dark: black;
+
+.section-title-dark {
+  position: relative;
+  color: $dark;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+  &::after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 5px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -25px;
+    background: #eeeeee;
+  }
+}
+.section-title-light {
+  position: relative;
+  color: $white;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+  &::after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 5px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -25px;
+    background: $white;
+  }
+}
+.section-title {
+  position: relative;
+  color: $white;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-bottom: 30px;
+}
+.theme-title {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+}
+.item-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.section-descript-dark {
+  color: #3b4954;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 45px;
+}
+.section-descript-light {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 45px;
+}
+.section-descript {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 45px;
+}
+.item-descript {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.light {
+  color: $white;
+}
+.dark {
+  color: $dark;
+}
+.green {
+  color: $green
+}
+.blue {
+  color: $blue;
+}
+.bg-green {
+  background-color: $green;
+}
+.pad-default {
+  padding: 10vh 0;
+}
+.bg-black {
+  background-color: $black;
+}
+.round {
+  border-radius: 50%;
+}
+.navbar-toggler-icon {
+  background: $dark;
+}
+.fa-bars {
+  color: $white;
+  background: #666666;
+
+}
+.bg-gray {
+  background: #666666;
+}
+.d-color {
+  color: #474d52;
+}
+.y-color {
+  color: $yellow;
+}

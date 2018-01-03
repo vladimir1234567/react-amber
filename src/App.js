@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 
-import Home from './pages/home.js'
+import Home from './pages/home.js';
+import Footer from './pages/blog.js';
 import './App.css';
 
 class App extends Component {
@@ -9,6 +10,7 @@ class App extends Component {
     return (
       <div>
         <Home />
+        <Footer />
       </div>
     );
   }
