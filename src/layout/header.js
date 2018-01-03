@@ -19,7 +19,7 @@ class Header extends Component {
                                         <a className="link-item log-link" href="index.html">Login</a>
                                     </li>
                                     <li className="nav-item log-item">
-                                        <a className="link-item log-link text-right" href="#">Register</a>
+                                        <a className="link-item log-link text-right" href="/">Register</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -34,12 +34,12 @@ class Header extends Component {
                             <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                                 <div className="navbar-nav main-navbar-nav">
                                     <a className="nav-item nav-link main-nav-link text-center" href="index.html">Home</a>
-                                    <a className="nav-item nav-link main-nav-link text-center" href="#">Typography</a>
+                                    <a className="nav-item nav-link main-nav-link text-center" href="/">Typography</a>
                                     <a className="nav-item nav-link main-nav-link text-center" href="blogs.html">Blog</a>
                                     <a className="nav-item nav-link main-nav-link text-center" href="gallery.html">sPage</a>
-                                    <a className="nav-item nav-link main-nav-link text-center" href="#">Elements</a>
+                                    <a className="nav-item nav-link main-nav-link text-center" href="/">Elements</a>
                                     <a className="nav-item nav-link main-nav-link text-center" href="project.html">Eccomerse</a>
-                                    <a className="nav-item nav-link main-nav-link text-center" href="#">Mega menu</a>
+                                    <a className="nav-item nav-link main-nav-link text-center" href="/">Mega menu</a>
                                 </div>
                             </div>
                         </nav>
