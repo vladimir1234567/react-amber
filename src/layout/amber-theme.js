@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import '../../node_modules/bootstrap/dist/css/bootstrap.css';
-import '../App.css';
-import '../atheme.css';
 
 class Atheme extends Component {
     render() {

@@ -1,12 +1,15 @@
 @import "variables.scss";
+
+@import "atheme.scss";
+
 .App {
   text-align: center;
 }
 
 .header-top {
-  background-color: #000000;
-
+  background-color: $black;
 }
+
 .top-navbar {
   .form-search {
     position: relative;
@@ -298,7 +301,7 @@ button:focus {
 
 .section-title-dark {
   position: relative;
-  color: dark;
+  color: $dark;
   font-size: 36px;
   font-weight: 300;
   line-height: 20px;
