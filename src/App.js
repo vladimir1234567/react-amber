@@ -7,7 +7,7 @@ import React from "react";
 import {BrowserRouter, Route, Link} from "react-router-dom";
 import createBrowserHistory from "history/createBrowserHistory";
 import logo from './img/logo.png';
-import sl from './img/sl-1-1.jpg';
+import sl from './img/sl-1-1.png';
 const history = createBrowserHistory();
 
 const Home = () => (

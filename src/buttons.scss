@@ -1,0 +1,63 @@
+$black: #000000;
+$white: #ffffff;
+$green: #02baab;
+$dark: #3b4954;
+$blue: #914ac2;
+$gray: #c3c3c3;
+$yellow: #ffae00;
+$dark: black;
+
+.my-btn {
+  height: 43px;
+  padding: 0 23px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 43px;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  cursor: pointer;
+}
+.full-btn {
+  background: $green;
+  border: none;
+  color: $white;
+}
+.green-color {
+  color: $green;
+}
+.green-btn {
+  background: transparent;
+  border: 2px solid $green;
+  color: $green;
+}
+.yellow-btn {
+  background: transparent;
+  border: 2px solid $yellow;
+  color: $yellow;
+}
+.yellow-btn:hover {
+  background: $yellow;
+  color: $white;
+}
+.green-btn:hover {
+  background: $green;
+  //border: 2px solid $green;
+  color: $white;
+}
+.white-btn {
+  background: transparent;
+  border: 2px solid $white;
+  color: $white;
+}
+#carouselExampleIndicators > ol > li {
+  background: $green;
+}
+#carouselExampleIndicators > ol > li.active {
+  background: $green;
+}
+a.inl {
+  display: inline-block;
+}
+.my-card .b-2 .my-btn:hover {
+  color: $white;
+}
