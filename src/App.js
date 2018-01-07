@@ -1,5 +1,6 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
+import './font-awesome/css/font-awesome.min.css';
 
 import './App.css';
 
