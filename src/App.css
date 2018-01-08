@@ -1,5 +1,6 @@
 @import url(./../node_modules/bootstrap/dist/css/bootstrap.css);
 @import url(./font-awesome/css/font-awesome.min.css);
+@import url(./styles/hover-min.css);
 ul {
   margin: 0;
   padding: 0;
@@ -1260,3 +1261,66 @@ body .post-list .post-item:before {
 
 .progress-100 {
   background-image: linear-gradient(90deg, #ffffff 50%, transparent 50%, transparent), linear-gradient(270deg, #ffffff 50%, #35c8bc 50%, #35c8bc); }
+
+.my-card .wrap-card {
+  position: relative;
+  height: 340px;
+  border: 3px solid #eeeeee;
+  border-bottom: 0; }
+  .my-card .wrap-card .wrap-img {
+    position: relative;
+    z-index: 2;
+    height: 210px;
+    overflow: hidden; }
+    .my-card .wrap-card .wrap-img img {
+      width: 100%;
+      height: auto; }
+  .my-card .wrap-card .card-info {
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    bottom: 0;
+    height: 90px; }
+
+.carde-title {
+  width: 150px;
+  background: lightcyan;
+  margin: -60px auto 0;
+  text-align: center; }
+
+.carde-title h5 {
+  width: 150px;
+  color: #02baab;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  background: white;
+  text-align: center; }
+
+.carde-title span {
+  color: #c4c4c4;
+  font-size: 12px; }
+
+.card-description {
+  color: #3b4954;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+  padding: 0 20px; }
+
+.my-card:hover .card-info {
+  transition: 1s;
+  margin-top: 0; }
+
+.my-card:hover .wrap-img {
+  height: 340px;
+  transition: height 1s;
+  z-index: 4; }
+
+.my-card .b-2 {
+  padding: 20px 0;
+  border: 3px solid #eeeeee;
+  border-top: 0; }
+  .my-card .b-2 .my-btn {
+    display: inline-block;
+    margin: 0 auto; }

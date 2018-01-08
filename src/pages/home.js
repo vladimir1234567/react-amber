@@ -7,7 +7,7 @@ import Atheme from '../layout/atheme';
 import SliderTwo from '../layout/sliderTwo';
 import Blog from '../layout/blog';
 import Expiriens from '../layout/expiriens';
-
+import Team from '../layout/team';
 import Footer from '../layout/footer';
 
 
@@ -23,7 +23,7 @@ class Home extends Component {
                 <SliderTwo />
                 <Blog />
                 <Expiriens />
-
+                <Team />
                 <Footer />
             </div>
         );

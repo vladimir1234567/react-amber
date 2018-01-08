@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import '../../node_modules/bootstrap/dist/css/bootstrap.css';
-import '../App.css';
-import '../team.css'
 import face1 from '../img/face1.jpg';
 import face2 from '../img/face2.jpg';
 import face3 from '../img/face3.jpg';
