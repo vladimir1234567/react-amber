@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../App.css';
-import '../last-works.css';
 import clock from '../img/clock.jpg';
 
 
@@ -24,36 +23,36 @@ class Works extends Component {
                         <li className="cards-item col-cm-12 col-md-4">
                             <img src={clock} className="card-photo hvr-grow" alt="hand-clock" />
                                 <ul className="card-vertical">
-                                    <li className="icon-item"><a href="" class="icon-linc"></a></li>
-                                    <li className="icon-item"><a href="" class="icon-linc"></a></li>
-                                    <li className="icon-item"><a href="" class="icon-linc"></a></li>
+                                    <li className="icon-item"><a href="" className="icon-linc" /></li>
+                                    <li className="icon-item"><a href="" className="icon-linc" /></li>
+                                    <li className="icon-item"><a href="" className="icon-linc" /></li>
                                 </ul>
                                 <div className="down-text">
-                                    <h5 className="card-title"><span>Lindemans Wine</span><span className="icon"></span></h5>
+                                    <h5 className="card-title"><span>Lindemans Wine</span><span className="icon" /></h5>
                                     <p className="person-position"><span>Art Direction, Web Design</span><span className="curent">257</span></p>
                                 </div>
                         </li>
                         <li className="cards-item col-cm-12 col-md-4">
                             <img src={clock} className="card-photo hvr-grow" alt="hand-clock" />
                                 <ul className="card-vertical">
-                                    <li className="icon-item"><a href="" className="icon-linc"></a></li>
-                                    <li className="icon-item"><a href="" className="icon-linc"></a></li>
-                                    <li className="icon-item"><a href="" className="icon-linc"></a></li>
+                                    <li className="icon-item"><a href="" className="icon-linc" /></li>
+                                    <li className="icon-item"><a href="" className="icon-linc" /></li>
+                                    <li className="icon-item"><a href="" className="icon-linc" /></li>
                                 </ul>
                                 <div className="down-text">
-                                    <h5 className="card-title"><span>Lindemans Wine</span><span className="icon"></span></h5>
+                                    <h5 className="card-title"><span>Lindemans Wine</span><span className="icon" /></h5>
                                     <p className="person-position"><span>Art Direction, Web Design</span><span className="curent">257</span></p>
                                 </div>
                         </li>
                         <li className="cards-item col-cm-12 col-md-4">
                             <img src={clock} className="card-photo hvr-grow" alt="hand-clock" />
                                 <ul className="card-vertical">
-                                    <li className="icon-item"><a href="" className="icon-linc"></a></li>
-                                    <li className="icon-item"><a href="" className="icon-linc"></a></li>
-                                    <li className="icon-item"><a href="" className="icon-linc"></a></li>
+                                    <li className="icon-item"><a href="" className="icon-linc" /></li>
+                                    <li className="icon-item"><a href="" className="icon-linc" /></li>
+                                    <li className="icon-item"><a href="" className="icon-linc" /></li>
                                 </ul>
                                 <div className="down-text">
-                                    <h5 className="card-title"><span>Lindemans Wine</span><span className="icon"></span></h5>
+                                    <h5 className="card-title"><span>Lindemans Wine</span><span className="icon" /></h5>
                                     <p className="person-position"><span>Art Direction, Web Design</span><span className="curent">257</span></p>
                                 </div>
                         </li>

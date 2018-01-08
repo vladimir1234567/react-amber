@@ -629,3 +629,96 @@ body .post-list .post-item:before {
 
 .main-header .main-nav .navbar-toggler:focus {
   outline: none; }
+
+.month {
+  padding: 10vh 0; }
+  .month .container-fluid {
+    max-width: 785px;
+    position: relative; }
+    .month .container-fluid .my-btn {
+      position: absolute;
+      display: inline-block;
+      margin-left: -75px;
+      margin-bottom: 10vh;
+      left: 50%; }
+
+.last-works {
+  padding: 10vh 0;
+  background: url("img/sea.jpg") 0 -200px; }
+
+.min-wrap {
+  max-width: 740px;
+  margin: 0 auto; }
+
+.my-cards .cards-item {
+  position: relative; }
+  .my-cards .cards-item:hover .card-vertical {
+    opacity: 1;
+    transition: 1s; }
+  .my-cards .cards-item:hover .down-text {
+    opacity: 0;
+    transition: 1s; }
+  .my-cards .cards-item .card-photo {
+    width: 100%; }
+
+.my-cards .card-vertical {
+  opacity: 0;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  margin-top: -70px;
+  left: 50%;
+  margin-left: -20px;
+  width: 40px;
+  height: 140px;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.my-cards .icon-item .icon-linc {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: green; }
+
+.my-cards .icon-item:first-child .icon-linc {
+  background: #02baab url("img/heart.png") no-repeat 10px 13px; }
+
+.my-cards .icon-item:nth-child(2) .icon-linc {
+  background: #02baab url("img/zoom.png") no-repeat 10px 12px; }
+
+.my-cards .icon-item:last-child .icon-linc {
+  background: #02baab url("img/icon-link.png") no-repeat 10px 10px; }
+
+.down-text {
+  width: 90%;
+  position: absolute;
+  bottom: 5px; }
+  .down-text .card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0; }
+    .down-text .card-title .icon {
+      display: block;
+      width: 16px;
+      height: 14px;
+      background: url("img/heart1.png") no-repeat; }
+  .down-text .person-position {
+    display: flex;
+    justify-content: space-between;
+    color: #02baab;
+    margin: 0 20px;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 20px; }
+
+@media (max-width: 767px) {
+  .cards-item {
+    margin-bottom: 10px; } }

@@ -10,7 +10,7 @@ $dark: black;
 
 .last-works {
   padding: 10vh 0;
-  background: url("./img/sea.jpg")0 -200px;
+  background: url("img/sea.jpg")0 -200px;
 }
 .min-wrap {
   max-width: 740px;
@@ -54,13 +54,13 @@ $dark: black;
       background: green;
     }
     &:first-child .icon-linc {
-      background: green url("./img/heart.png") no-repeat 10px 13px;
+      background: $green url("img/heart.png") no-repeat 10px 13px;
     }
     &:nth-child(2) .icon-linc {
-      background: green url("./img/zoom.png") no-repeat 10px 12px;
+      background: $green url("img/zoom.png") no-repeat 10px 12px;
     }
     &:last-child .icon-linc {
-      background: green url("./img/icon-link.png") no-repeat 10px 10px;
+      background: $green url("img/icon-link.png") no-repeat 10px 10px;
     }
   }
 }
@@ -83,7 +83,7 @@ $dark: black;
       display: block;
       width: 16px;
       height: 14px;
-      background: url("./img/heart1.png") no-repeat;
+      background: url("img/heart1.png") no-repeat;
 
 
     }
