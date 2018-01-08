@@ -1,0 +1,51 @@
+.slider {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  .carousel-item {
+    //height: 100vh;
+    img {
+      height: 50%;
+      width: auto;
+    }
+  }
+}
+.carousel-caption {
+  h3 {
+    width: 100%;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 72px;
+    color: #02baab;
+  }
+  p {
+    width: 100%;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 72px;
+    color: $white;
+  }
+
+  bottom: 40%;
+}
+.carousel-buttons {
+  position: absolute;
+  z-index: 15;
+  left: 50%;
+  margin-left: -170px;
+  bottom: 25%;
+  display: flex;
+  .green-btn {
+    margin-right: 30px;
+  }
+
+}
+.carousel-indicators {
+  bottom: 20%;
+}
+.main-header .main-nav .navbar-toggler {
+  background: #666666;
+}
+.main-header .main-nav .navbar-toggler:focus {
+  outline: none;
+}

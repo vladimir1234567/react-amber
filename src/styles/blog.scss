@@ -1,0 +1,64 @@
+$black: #000000;
+$white: #ffffff;
+$green: #02baab;
+$dark: #3b4954;
+$blue: #914ac2;
+$gray: #c3c3c3;
+$yellow: #ffae00;
+$dark: black;
+
+
+.blog-post {
+  padding: 10vh 0;
+}
+.card-deck {
+  margin-bottom: 30px;
+}
+.card {
+  border: none;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  &:last-child {
+    .my-card-footer {
+      .comments {
+        .comment-link {
+          display: block;
+          width: 21px;
+          height: 16px;
+          background: url("./img/blue-comment.png") no-repeat;
+        }
+      }
+    }
+  }
+}
+.card-body {
+  padding-right: 0;
+  padding-left: 0;
+}
+.my-card-footer {
+  border-top: none;
+  background: none;
+  padding: 0;
+; display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  .comments {
+    display: flex;
+    align-items: center;
+    .comment-link {
+      display: block;
+      width: 21px;
+      height: 16px;
+      background: url("./img/comment.png") no-repeat;
+    }
+  }
+
+}
+
+@media (min-width: 576px){
+  .card-deck .card {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+

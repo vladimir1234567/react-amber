@@ -1,0 +1,24 @@
+$black: #000000;
+$white: #ffffff;
+$green: #02baab;
+$dark: #3b4954;
+$blue: #914ac2;
+$gray: #c3c3c3;
+$yellow: #ffae00;
+$dark: black;
+
+.month {
+  padding: 10vh 0;
+
+  .container-fluid {
+    max-width: 785px;
+    position: relative;
+    .my-btn {
+      position: absolute;
+      display: inline-block;
+      margin-left: -75px;
+      margin-bottom: 10vh;
+      left: 50%;
+    }
+  }
+}
