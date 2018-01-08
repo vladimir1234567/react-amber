@@ -1,0 +1,190 @@
+$black: #000000;
+$white: #ffffff;
+$green: #02baab;
+$dark: #3b4954;
+$blue: #914ac2;
+$gray: #c3c3c3;
+$yellow: #ffae00;
+$dark: black;
+
+
+.expiriens {
+  position: relative;
+  .row {
+    position: relative;
+    &::before {
+      position: absolute;
+      content: "";
+      width: 10px;
+      height: 10px;
+      background: #ffffff;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      left: 50%;
+      top: 45%;
+      margin-left: -5px;
+      -webkit-box-shadow: 20px 0 0 #ffffff, -20px 0 0 #ffffff;
+      box-shadow: 20px 0 0 #ffffff, -20px 0 0 #ffffff;
+      -webkit-transform: translate(-100px, -50px);
+      -ms-transform: translate(-100px, -50px);
+      transform: translate(-190px, -50px);
+    }
+    &::after {
+      position: absolute;
+      content: "";
+      width: 10px;
+      height: 10px;
+      background: #ffffff;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      right: 50%;
+      top: 45%;
+      margin-right: -6px;
+      -webkit-box-shadow: 20px 0 0 #ffffff, -20px 0 0 #ffffff;
+      box-shadow: 20px 0 0 #ffffff, -20px 0 0 #ffffff;
+      -webkit-transform: translate(-100px, -50px);
+      -ms-transform: translate(-100px, -50px);
+      transform: translate(190px, -50px);
+    }
+  }
+}
+@media (max-width: 1199px) {
+  .expiriens .row::before {
+    position: absolute;
+    top: 45%;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #ffffff;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -5px;
+    -webkit-box-shadow: 20px 0 0 #ffffff, -20px 0 0 #ffffff;
+    box-shadow: 20px 0 0 #ffffff, -20px 0 0 #ffffff;
+    -webkit-transform: translate(-100px, -50px);
+    -ms-transform: translate(-100px, -50px);
+    transform: translate(-160px, -50px);
+  }
+  .expiriens .row::after {
+    position: absolute;
+    top: 45%;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #ffffff;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -5px;
+    -webkit-box-shadow: 20px 0 0 #ffffff, -20px 0 0 #ffffff;
+    box-shadow: 20px 0 0 #ffffff, -20px 0 0 #ffffff;
+    -webkit-transform: translate(-100px, -50px);
+    -ms-transform: translate(-100px, -50px);
+    transform: translate(160px, -50px);
+  }
+}
+
+@media (max-width: 991px) {
+  .expiriens .row::before {
+    display: none;
+
+  }
+  .expiriens .row::after {
+    display: none;
+
+  }
+
+}
+.item {
+  position: relative;
+  width: 215px;
+  height: 215px;
+  border-radius: 50%;
+  background-color: red;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  .radial-inner-bg {
+    border-radius: 50%;
+    width: 198px;
+    height: 198px;
+    top: 8px;
+    left: 8px;
+    background: $green;
+    position: absolute;
+  }
+  .black-round {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    top: 50%;
+    margin-top: -50px;
+    left: 50%;
+    margin-left: -50px;
+  }
+}
+
+.progress-scale .section-descript-light {
+  width: 220px;
+  margin: 0 auto;
+}
+.progress-scale:last-child .section-descript-light {
+  width: 200px;
+  margin: 0 auto;
+}
+.progress-scale:first-child .black-round::before {
+  position: absolute;
+  content: '';
+  width: 63px;
+  height: 58px;
+  top: 50%;
+  margin-top: -32px;
+  left: 50%;
+  margin-left: -29px;
+  background: url("img/gears.png") no-repeat;
+}
+.progress-scale:nth-child(2) .black-round::before {
+  position: absolute;
+  content: '';
+  width: 54px;
+  height: 54px;
+  top: 50%;
+  margin-top: -27px;
+  left: 50%;
+  margin-left: -27px;
+  background: url("img/b-phone.png") no-repeat;
+}
+.progress-scale:last-child .black-round::before {
+  position: absolute;
+  content: '';
+  width: 63px;
+  height: 58px;
+  top: 50%;
+  margin-top: -29px;
+  left: 50%;
+  margin-left: -32px;
+  background: url("img/rocket.png") no-repeat;
+}
+.progress-scale .section-title {
+  padding-bottom: 0;
+}
+
+//http://jsfiddle.net/kaska/AvG6d/
+$step: 1; // step of % for created classes
+$loops: 100;
+$increment: (360 / $loops);
+$half: round($loops / 2);
+@for $i from 0 through $loops {
+  .progress-#{$i*$step} {
+    @if $i < 50 {
+      $nextdeg: 90deg + ( $increment * $i );
+      background-image: linear-gradient(90deg, #35c8bc 50%, transparent 50%, transparent), linear-gradient($nextdeg, $white 50%, #35c8bc 50%, #35c8bc);
+    }
+    @else {
+      $nextdeg: -90deg + ( $increment * ( $i - $half ) );
+      background-image: linear-gradient($nextdeg, $white 50%, transparent 50%, transparent), linear-gradient(270deg, $white 50%, #35c8bc 50%, #35c8bc);
+    }
+  }
+}
+

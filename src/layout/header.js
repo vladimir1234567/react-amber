@@ -68,7 +68,7 @@ class Header extends Component {
                 <div className="container">
                     <nav className="navbar navbar-expand-lg main-nav">
                         <h1 className="logo">
-                            <a className="navbar-brand text-hide" href="index.html">
+                            <a className="navbar-brand text-hide" href="/">
                                 <img src={logo} alt="Amber" />
                                 Amber
                             </a>

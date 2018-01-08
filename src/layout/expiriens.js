@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import '../../node_modules/bootstrap/dist/css/bootstrap.css';
-import '../App.scss';
-import sl from '../img/sl-1-1.jpg';
 
 class Expiriens extends Component {
     render() {
@@ -17,8 +14,8 @@ class Expiriens extends Component {
                         <div className="col-sm-12 col-md-4 progress-scale">
                             <div className="item progress-50
 ">
-                                <div className="radial-inner-bg  hvr-grow"></div>
-                                <div className="black-round bg-black round  hvr-grow"></div>
+                                <div className="radial-inner-bg  hvr-grow" />
+                                <div className="black-round bg-black round  hvr-grow" />
                             </div>
                             <h3 className="section-title light text-center">500</h3>
                             <p className="section-descript-light text-center">
@@ -27,8 +24,8 @@ class Expiriens extends Component {
                         </div>
                         <div className="col-sm-12 col-md-4 progress-scale">
                             <div className="item progress-60">
-                                <div className="radial-inner-bg  hvr-grow"></div>
-                                <div className="black-round bg-black round  hvr-grow"></div>
+                                <div className="radial-inner-bg  hvr-grow" />
+                                <div className="black-round bg-black round  hvr-grow" />
                             </div>
                             <h3 className="section-title light text-center">25 000</h3>
                             <p className="section-descript-light text-center">
@@ -37,8 +34,8 @@ class Expiriens extends Component {
                         </div>
                         <div className="col-sm-12 col-md-4 progress-scale">
                             <div className="item progress-55">
-                                <div className="radial-inner-bg  hvr-grow"></div>
-                                <div className="black-round bg-black round  hvr-grow"></div>
+                                <div className="radial-inner-bg  hvr-grow" />
+                                <div className="black-round bg-black round  hvr-grow" />
                             </div>
                             <h3 className="section-title light text-center">100 000</h3>
                             <p className="section-descript-light text-center">

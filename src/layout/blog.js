@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import '../../node_modules/bootstrap/dist/css/bootstrap.css';
-import '../App.scss';
-import '../blog.css';
+
 import blog1 from '../img/blog1.jpg';
 import blog2 from '../img/blog2.jpg';
 import blog3 from '../img/blog3.jpg';
@@ -28,8 +26,8 @@ class Blog extends Component {
                                         </p>
                                     </div>
                                     <div className="card-footer  my-card-footer">
-                                        <a href="blog-single.html">Learn nmore</a>
-                                        <span className="comments"><a className="comment-link" href="#"></a>454</span>
+                                        <a href="/blog">Learn nmore</a>
+                                        <span className="comments"><a className="comment-link" href="#" />454</span>
                                     </div>
                             </div>
                             <div className="card  col-sm-12 col-md-4">
@@ -41,8 +39,8 @@ class Blog extends Component {
                                         </p>
                                     </div>
                                     <div className="card-footer  my-card-footer">
-                                        <a href="blog-single.html">Learn nmore</a>
-                                        <span className="comments"><a className="comment-link" href="#"></a>454</span>
+                                        <a href="/blog">Learn nmore</a>
+                                        <span className="comments"><a className="comment-link" href="#" />454</span>
                                     </div>
                             </div>
                             <div className="card  col-sm-12 col-md-4">
@@ -52,8 +50,8 @@ class Blog extends Component {
                                         <p className="card-text">Her father worked on oil rigs and farms that through most of the Depression. But it is a new story that has seared into my genetic.</p>
                                     </div>
                                     <div className="card-footer  my-card-footer">
-                                        <a href="blog-single.html">Learn nmore</a>
-                                        <span className="comments"><a className="comment-link" href="#"></a>454</span>
+                                        <a href="/blog">Learn nmore</a>
+                                        <span className="comments"><a className="comment-link" href="#" />454</span>
                                     </div>
                             </div>
                         </div>

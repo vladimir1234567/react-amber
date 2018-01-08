@@ -6,3 +6,54 @@ $blue: #914ac2;
 $gray: #c3c3c3;
 $yellow: #ffae00;
 $dark: black;
+
+.carousel-1 {
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    width: 47px;
+    height: 39px;
+    left: 50%;
+    top: 10%;
+    margin-left: -24px;
+    background: url("img/quote.png");
+    z-index: 100;
+  }
+}
+.carousel-1 .carousel-caption {
+  width: 640px;
+  margin: 0 auto;
+  bottom: 20%;
+}
+.carousel-1 .carousel-indicators li {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.carousel-1 .carousel-caption h3 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.carousel-1 .carousel-caption p {
+  color: #02baab;
+  font-family: Lato,'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+@media (max-width: 1110px) {
+  .carousel-1::before {
+    display: none;
+  }
+}
+@media (max-width: 960px) {
+  .carousel-caption {
+    bottom: 10%
+  }
+}
