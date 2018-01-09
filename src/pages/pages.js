@@ -1,21 +1,18 @@
 import React, { Component } from 'react';
-
 import Header from '../layout/header';
-import BlogHead from '../layout/blogHead';
-import BlogSingle from '../layout/blogSingle';
-
+import BlogList from '../layout/blogList';
 import Footer from '../layout/footer';
-class Blog extends Component {
+
+class Pages extends Component {
     render() {
         return (
             <div>
                 <Header />
-                <BlogHead />
-                <BlogSingle />
+                <BlogList />
                 <Footer />
             </div>
         );
     }
 }
 
-export default Blog;
+export default Pages;

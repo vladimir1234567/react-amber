@@ -23,9 +23,9 @@ class Works extends Component {
                         <li className="cards-item col-cm-12 col-md-4">
                             <img src={clock} className="card-photo hvr-grow" alt="hand-clock" />
                                 <ul className="card-vertical">
-                                    <li className="icon-item"><a href="" className="icon-linc" /></li>
-                                    <li className="icon-item"><a href="" className="icon-linc" /></li>
-                                    <li className="icon-item"><a href="" className="icon-linc" /></li>
+                                    <li className="icon-item"><a href="/" className="icon-linc" /></li>
+                                    <li className="icon-item"><a href="/" className="icon-linc" /></li>
+                                    <li className="icon-item"><a href="/" className="icon-linc" /></li>
                                 </ul>
                                 <div className="down-text">
                                     <h5 className="card-title"><span>Lindemans Wine</span><span className="icon" /></h5>
@@ -35,9 +35,9 @@ class Works extends Component {
                         <li className="cards-item col-cm-12 col-md-4">
                             <img src={clock} className="card-photo hvr-grow" alt="hand-clock" />
                                 <ul className="card-vertical">
-                                    <li className="icon-item"><a href="" className="icon-linc" /></li>
-                                    <li className="icon-item"><a href="" className="icon-linc" /></li>
-                                    <li className="icon-item"><a href="" className="icon-linc" /></li>
+                                    <li className="icon-item"><a href="/" className="icon-linc" /></li>
+                                    <li className="icon-item"><a href="/" className="icon-linc" /></li>
+                                    <li className="icon-item"><a href="/" className="icon-linc" /></li>
                                 </ul>
                                 <div className="down-text">
                                     <h5 className="card-title"><span>Lindemans Wine</span><span className="icon" /></h5>
@@ -47,9 +47,9 @@ class Works extends Component {
                         <li className="cards-item col-cm-12 col-md-4">
                             <img src={clock} className="card-photo hvr-grow" alt="hand-clock" />
                                 <ul className="card-vertical">
-                                    <li className="icon-item"><a href="" className="icon-linc" /></li>
-                                    <li className="icon-item"><a href="" className="icon-linc" /></li>
-                                    <li className="icon-item"><a href="" className="icon-linc" /></li>
+                                    <li className="icon-item"><a href="/" className="icon-linc" /></li>
+                                    <li className="icon-item"><a href="/" className="icon-linc" /></li>
+                                    <li className="icon-item"><a href="/" className="icon-linc" /></li>
                                 </ul>
                                 <div className="down-text">
                                     <h5 className="card-title"><span>Lindemans Wine</span><span className="icon" /></h5>

@@ -22,8 +22,8 @@ class Header extends Component {
                 className: 'main-nav-link text-center'
             },
             {
-                link: 'index.html',
-                text: 'Home4',
+                link: '/pages',
+                text: 'Pages',
                 className: 'main-nav-link text-center'
             },
             {

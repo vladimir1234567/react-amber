@@ -11,6 +11,8 @@ import createBrowserHistory from 'history/createBrowserHistory';
 
 import Home from './pages/home.js';
 import Blog from './pages/blog.js';
+import Pages from './pages/pages.js';
+
 
 
 
@@ -23,7 +25,7 @@ class App extends Component {
                 <div>
                     <Route exact path="/" component={Home} />
                     <Route exact path="/blog/" component={Blog} />
-
+                    <Route exact path="/pages/" component={Pages} />
                 </div>
             </Router>
         );

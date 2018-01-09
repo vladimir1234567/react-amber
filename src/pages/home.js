@@ -5,7 +5,7 @@ import Month from '../layout/month';
 import Works from '../layout/last-works';
 import Atheme from '../layout/atheme';
 import SliderTwo from '../layout/sliderTwo';
-import Blog from '../layout/blog';
+import Blogs from '../layout/blogs';
 import Expiriens from '../layout/expiriens';
 import Team from '../layout/team';
 import Footer from '../layout/footer';
@@ -21,7 +21,7 @@ class Home extends Component {
                 <Works />
                 <Atheme />
                 <SliderTwo />
-                <Blog />
+                <Blogs />
                 <Expiriens />
                 <Team />
                 <Footer />
