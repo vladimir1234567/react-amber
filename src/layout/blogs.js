@@ -48,7 +48,6 @@ class Blogs extends Component {
                     </div>
                     <div className="row">
                         <BlogDeck BlogsItem={CardItem}/>
-
                     </div>
                 </div>
             </section>

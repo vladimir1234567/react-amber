@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 
 import imageThird from '../img/blog3.jpg';
+import clock from '../img/clock.jpg'
+import beforeAfter from '../img/before.jpg';
+import smallCat from '../img/../img/cat2.jpg';
+import bigCat from '../img/../img/cat3.jpg';
 
 
 class BlogSingle extends Component {
@@ -76,10 +80,10 @@ class BlogSingle extends Component {
                                 </p>
                                 <figure>
                                     <div className="row">
-                                        <img src="../img/clock.jpg" className="col-4 className single-clock"
+                                        <img src={clock} className="col-4 className single-clock"
                                              alt="clock"/>
-                                        <img src="../img/clock.jpg" className="col-4" alt="clock"/>
-                                        <img src="../img/clock.jpg" className="col-4" alt="clock"/>
+                                        <img src={clock} className="col-4" alt="clock"/>
+                                        <img src={clock} className="col-4" alt="clock"/>
                                     </div>
                                 </figure>
                                 <p className="item-descript d-color">
@@ -188,13 +192,13 @@ class BlogSingle extends Component {
                                 <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
-                                            <img className="d-block w-100" src="../img/before.jpg" alt="First slide"/>
+                                            <img className="d-block w-100" src={beforeAfter} alt="First slide"/>
                                         </div>
                                         <div className="carousel-item">
-                                            <img className="d-block w-100" src="../img/cat2.jpg" alt="Second slide"/>
+                                            <img className="d-block w-100" src={smallCat} alt="Second slide"/>
                                         </div>
                                         <div className="carousel-item">
-                                            <img className="d-block w-100" src="../img/cat3.jpg" alt="Third slide"/>
+                                            <img className="d-block w-100" src={bigCat} alt="Third slide"/>
                                         </div>
                                     </div>
                                     <a className="carousel-control-prev" href="#carouselExampleControls" role="button"
