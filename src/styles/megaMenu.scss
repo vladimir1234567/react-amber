@@ -1,0 +1,50 @@
+.gallery {
+  text-align: center;
+  padding-bottom: 50px;
+  .my-cards {
+    margin-bottom: 25px;
+  }
+  .show {
+    position: relative;
+    display: inline-block;
+    color: #02baab;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    &:focus {
+      outline: none;
+    }
+    &::before {
+      position: absolute;
+      content: '';
+      width: 11px;
+      height: 6px;
+      bottom: 0;
+      left: 50%;
+      margin-left: -3px;
+      background: url("./img/rows-down.png");
+    }
+  }
+}
+.my-cards {
+  margin-bottom: 25px;
+}
+
+.page-descript {
+  margin-bottom: 30px;
+}
+.gallery-menu {
+  .gallery-item {
+    margin-bottom: 20px;
+    .active {
+      color: #3b4954;    }
+  }
+  .gallery-link {
+    color: #02baab;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+}

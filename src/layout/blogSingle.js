@@ -238,20 +238,20 @@ class BlogSingle extends Component {
                                 <h4 className="item-title d-color">Add comment</h4>
                                 <form action="/" method="get" className="author row">
                                     <div className="input-box col-4">
-                                        <label for="a-name">Name</label>
+                                        <label htmlFor="a-name">Name</label>
                                         <input type="text" className="author-name" id="a-name" name="name"/>
                                     </div>
                                     <div className="input-box col-4">
-                                        <label for="a-email">Email</label>
+                                        <label htmlFor="a-email">Email</label>
                                         <input type="email" className="author-email" id="a-email" name="email" />
                                     </div>
                                     <div className="input-box col-4">
-                                        <label for="a-site">Website(optional</label>
+                                        <label htmlFor="a-site">Website(optional</label>
                                         <input type="url" className="author-site" id="a-site" name="site" />
                                     </div>
                                     <div className="w-100" />
                                     <div className="input-box col-12">
-                                        <label for="a-message">Message</label>
+                                        <label htmlFor="a-message">Message</label>
                                         <textarea name="message" className="message" id="a-message" cols="30" rows="4"></textarea>
                                     </div>
                                     <div className="input-box col-3  offset-9">
@@ -266,7 +266,7 @@ class BlogSingle extends Component {
                                                 <h5 className="comment-title">Administrator</h5>
                                                 <button className="back-btn">Reply</button>
                                             </div>
-                                            <time datetime="2013-09-17">September 17, 2013 @ 1:38 pm</time>
+                                            <time dateTime="2013-09-17">September 17, 2013 @ 1:38 pm</time>
 
                                         </header>
                                         <p className="item-descript d-color">
@@ -285,7 +285,7 @@ class BlogSingle extends Component {
                                                 className="comment-title">Alina</h5>
                                                 <button className="back-btn">Reply</button>
                                             </div>
-                                            <time datetime="2013-09-17">September 17, 2013 @ 1:38 pm</time>
+                                            <time dateTime="2013-09-17">September 17, 2013 @ 1:38 pm</time>
                                         </header>
                                         <p className="item-descript d-color">
                                             Small batch sartorial, single-origin coffee food truck tousled sed swag
@@ -300,7 +300,7 @@ class BlogSingle extends Component {
                                                 <h5 className="comment-title">Administrator</h5>
                                                 <button className="back-btn">Reply</button>
                                             </div>
-                                            <time datetime="2013-09-17">September 17, 2013 @ 1:38 pm</time>
+                                            <time dateTime="2013-09-17">September 17, 2013 @ 1:38 pm</time>
 
                                         </header>
                                         <p className="item-descript d-color">

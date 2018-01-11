@@ -11,10 +11,9 @@ class Header extends Component {
                 className: 'main-nav-link text-center'
             },
             {
-                link: 'index.html',
+                link: '/',
                 text: 'Home2',
                 className: 'main-nav-link text-center',
-                isActive: true
             },
             {
                 link: '/blog',
@@ -27,18 +26,18 @@ class Header extends Component {
                 className: 'main-nav-link text-center'
             },
             {
-                link: 'index.html',
+                link: '/',
                 text: 'Home5',
                 className: 'main-nav-link text-center'
             },
             {
-                link: 'index.html',
-                text: 'Home6',
+                link: '/eccomerse',
+                text: 'Eccomerse',
                 className: 'main-nav-link text-center'
             },
             {
-                link: 'index.html',
-                text: 'Home7',
+                link: '/megaMenu',
+                text: 'Mega Menu',
                 className: 'main-nav-link text-center'
             }
         ];

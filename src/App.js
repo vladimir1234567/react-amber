@@ -12,6 +12,8 @@ import createBrowserHistory from 'history/createBrowserHistory';
 import Home from './pages/home.js';
 import Blog from './pages/blog.js';
 import Pages from './pages/pages.js';
+import MegaMenu from './pages/megaMenu.js';
+import Eccomerse from './pages/eccomerse.js';
 
 
 
@@ -24,8 +26,10 @@ class App extends Component {
             <Router history={customHistory}>
                 <div>
                     <Route exact path="/" component={Home} />
-                    <Route exact path="/blog/" component={Blog} />
-                    <Route exact path="/pages/" component={Pages} />
+                    <Route path="/blog/" component={Blog} />
+                    <Route path="/pages/" component={Pages} />
+                    <Route path="/megaMenu/" component={MegaMenu} />
+                    <Route path="/eccomerse/" component={Eccomerse} />
                 </div>
             </Router>
         );

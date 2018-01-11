@@ -147,7 +147,7 @@ body {
 
 .main-navbar-nav .main-nav-link {
   width: 100px;
-  padding: 12px 0;
+  padding: 8px 0 12px;
   color: #ffffff;
   font-size: 12px;
   font-weight: 300;
@@ -1592,3 +1592,107 @@ body .post-list .post-item:before {
 .comment-user {
   width: 95%;
   margin-left: 5%; }
+
+.gallery {
+  text-align: center;
+  padding-bottom: 50px; }
+  .gallery .my-cards {
+    margin-bottom: 25px; }
+  .gallery .show {
+    position: relative;
+    display: inline-block;
+    color: #02baab;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 10px;
+    margin-bottom: 25px; }
+    .gallery .show:focus {
+      outline: none; }
+    .gallery .show::before {
+      position: absolute;
+      content: '';
+      width: 11px;
+      height: 6px;
+      bottom: 0;
+      left: 50%;
+      margin-left: -3px;
+      background: url("./img/rows-down.png"); }
+
+.my-cards {
+  margin-bottom: 25px; }
+
+.page-descript {
+  margin-bottom: 30px; }
+
+.gallery-menu .gallery-item {
+  margin-bottom: 20px; }
+  .gallery-menu .gallery-item .active {
+    color: #3b4954; }
+
+.gallery-menu .gallery-link {
+  color: #02baab;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px; }
+
+.slider-goods .carousel-control-prev {
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  color: #ffae00;
+  top: 50%; }
+
+.slider-goods .carousel-control-prev:hover {
+  width: 40px;
+  height: 40px;
+  background: #ffae00;
+  color: #ffffff; }
+
+.slider-goods .carousel-control-next {
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  color: #ffae00;
+  top: 50%; }
+
+.slider-goods .carousel-control-next:hover {
+  width: 40px;
+  height: 40px;
+  background: #ffae00;
+  color: #ffffff; }
+
+.project-info .control {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  margin-bottom: 40px; }
+  .project-info .control .carousel-control-prev,
+  .project-info .control .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    border: 1px solid #ffae00; }
+  .project-info .control .carousel-control-prev {
+    left: 0; }
+  .project-info .control .carousel-control-next {
+    left: 40px; }
+
+.project-info .comments {
+  margin-bottom: 40px;
+  display: block; }
+  .project-info .comments .comments-link {
+    display: inline-block;
+    width: 23px;
+    height: 20px;
+    margin-right: 5px;
+    background: url("./img/he-art.png") no-repeat; }
+
+.list-like {
+  margin-bottom: 40px; }
+  .list-like .item-like input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #ffae00;
+    background: none; }

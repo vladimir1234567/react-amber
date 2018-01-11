@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import _ from 'lodash';
-// import imageFirst from '../img/blog1.jpg';
-// import imageSecond from '../img/blog2.jpg';
-// import imageThird from '../img/blog3.jpg';
 
 class BlogDeck extends Component {
     render() {
