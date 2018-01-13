@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../../node_modules/bootstrap/dist/css/bootstrap.css';
 import _map from 'lodash/map';
 
+import { Link } from 'react-router-dom';
 
 class Nav extends Component {
     render() {
@@ -10,11 +11,12 @@ class Nav extends Component {
                 <div className="navbar-nav main-navbar-nav">
                     {
                         _map(this.props.ololo, (item, index) => (
-                            <a key={item.text + index}
-                               className={`nav-item nav-link ${item.className}`}
-                               href={item.link}>
+                            <Link
+                              key={item.text + index}
+                              className={`nav-item nav-link ${item.className}`}
+                              to={item.link}>
                                 {item.text} {item.isActive && ' (active)'}
-                            </a>
+                            </Link>
                         ))
                     }
                 </div>

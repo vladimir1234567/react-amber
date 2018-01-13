@@ -1,0 +1,52 @@
+.my-btn {
+  height: 43px;
+  padding: 0 23px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 43px;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  cursor: pointer; }
+
+.full-btn {
+  background: #02baab;
+  border: none;
+  color: #ffffff; }
+
+.green-color {
+  color: #02baab; }
+
+.green-btn {
+  background: transparent;
+  border: 2px solid #02baab;
+  color: #02baab; }
+
+.yellow-btn {
+  background: transparent;
+  border: 2px solid #ffae00;
+  color: #ffae00; }
+
+.yellow-btn:hover {
+  background: #ffae00;
+  color: #ffffff; }
+
+.green-btn:hover {
+  background: #02baab;
+  color: #ffffff; }
+
+.white-btn {
+  background: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff; }
+
+#carouselExampleIndicators > ol > li {
+  background: #02baab; }
+
+#carouselExampleIndicators > ol > li.active {
+  background: #02baab; }
+
+a.inl {
+  display: inline-block; }
+
+.my-card .b-2 .my-btn:hover {
+  color: #ffffff; }

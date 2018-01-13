@@ -12,17 +12,23 @@ import FifthSlide from '../img/sl-1-5.jpg'
 
 class Slide extends Component {
     render() {
+
+        let { sliderConfig } = this.props;
+
         return (
             <div>
                 <section className="slider">
                     <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-                        <ol className="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active" />
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1" />
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2" />
-                            <li data-target="#carouselExampleIndicators" data-slide-to="3" />
-                            <li data-target="#carouselExampleIndicators" data-slide-to="4" />
-                        </ol>
+                      { sliderConfig.indicators &&
+                          <ol className="carousel-indicators">
+                              <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active" />
+                              <li data-target="#carouselExampleIndicators" data-slide-to="1" />
+                              <li data-target="#carouselExampleIndicators" data-slide-to="2" />
+                              <li data-target="#carouselExampleIndicators" data-slide-to="3" />
+                              <li data-target="#carouselExampleIndicators" data-slide-to="4" />
+                          </ol>
+                      }
+
                         <div className="carousel-inner main-carousel-inner">
                             <div className="carousel-item active">
                                 <img className="d-block w-100" src={FirstSlide} height="950px" alt="First slide" />
