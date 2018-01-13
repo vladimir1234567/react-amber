@@ -5,14 +5,19 @@ import BlogHead from '../layout/blogHead';
 import BlogSingle from '../layout/blogSingle';
 
 import Footer from '../layout/footer';
+
 class Blog extends Component {
     render() {
+        let footerData = {
+          author: 'Alex Poushkin',
+          date: 'September 31',
+          commentsCount: 12
+        };
+
         return (
             <div>
-                <Header />
-                <BlogHead />
+                <BlogHead title="Blog grid view" footerData={ footerData } />
                 <BlogSingle />
-                <Footer />
             </div>
         );
     }

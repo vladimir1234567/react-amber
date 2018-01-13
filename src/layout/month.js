@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-import '../../node_modules/bootstrap/dist/css/bootstrap.css';
-import '../App.scss';
-import '../month.css';
-
 
 class Month extends Component {
     render() {

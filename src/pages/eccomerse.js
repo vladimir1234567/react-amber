@@ -8,12 +8,9 @@ import Footer from '../layout/footer';
 class Eccomerse extends Component {
     render() {
         return (
-
             <div>
-                <Header />
-                <BlogHead />
+                <BlogHead title="sdfasdfasdfasdf" footerData={false} />
                 <EccomerseBlock />
-                <Footer />
             </div>
         );
     }
