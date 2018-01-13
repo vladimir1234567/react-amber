@@ -18,6 +18,7 @@ import Eccomerse from './pages/eccomerse.js';
 
 
 
+
 const customHistory = createBrowserHistory();
 
 class App extends Component {
@@ -27,6 +28,7 @@ class App extends Component {
                 <div>
                     <Route exact path="/" component={Home} />
                     <Route path="/blog/" component={Blog} />
+
                     <Route path="/pages/" component={Pages} />
                     <Route path="/megaMenu/" component={MegaMenu} />
                     <Route path="/eccomerse/" component={Eccomerse} />
