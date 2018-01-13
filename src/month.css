@@ -1,0 +1,11 @@
+.month {
+  padding: 10vh 0; }
+  .month .container-fluid {
+    max-width: 785px;
+    position: relative; }
+    .month .container-fluid .my-btn {
+      position: absolute;
+      display: inline-block;
+      margin-left: -75px;
+      margin-bottom: 10vh;
+      left: 50%; }

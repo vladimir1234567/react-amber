@@ -15,9 +15,9 @@ class Footer extends Component {
                                     <li className="map-item footer-item"><span>Phone:</span> +7 998 71 150 30 20</li>
                                     <li className="map-item footer-item"><span>Email:</span> info@ambertheme.com</li>
                                 </ul>
-                                {/*<div className="map">*/}
-                                    {/*<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2594.959125097727!2d32.05619291560897!3d49.428586779347455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d14b85294003b9%3A0x281207f2579e0bca!2z0JDQnNCR0JXQoCwg0J_Qnw!5e0!3m2!1suk!2sua!4v1511552571624" width="210" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>*/}
-                                {/*</div>*/}
+                                <div className="map">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2594.959125097727!2d32.05619291560897!3d49.428586779347455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d14b85294003b9%3A0x281207f2579e0bca!2z0JDQnNCR0JXQoCwg0J_Qnw!5e0!3m2!1suk!2sua!4v1511552571624" width="210" height="200" frameborder="0" allowfullscreen />
+                                </div>
                             </section>
                             <section className="footer-section tweets col-sm-6 col-md-3">
                                 <h3 className="footer-title light">Latest tweets</h3>
